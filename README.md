@@ -1,10 +1,10 @@
- # 中文时间串 CN-time
+ # 中文时间串 mytime
  ## 简介 Introduce
- 简易的自定义时间格式函数，可自定义输入。（python time format in CN）
+ 简易的自定义时间格式函数，可自定义输入。
  ## 使用方式 Usage
  自定义模式时使用 #h# 等作为格式化参数
 ```py
-from cntime import *
+from mytime import *
 timedic = get_now()
 # 输出预设完整时间串
 timestr = str_timedic(timedic)
@@ -41,6 +41,6 @@ timestr = str_timedic(timedic,"help")
 
 **查看自带用例**
 ```
-python cntime.py
+python mytime.py
 ```
 本项目遵循MIT开源协议
